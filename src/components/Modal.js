@@ -6,7 +6,6 @@ import { selectPokemon } from "../store/actionCreators/pokemon";
 import "../assets/stylesheets/Modal.css";
 
 const Modal = ({ pokemon, selectPokemon }) => {
-  console.log(pokemon);
   const renderStats = () => {
     return pokemon.stats.map((stat) => (
       <li key={stat.stat.name} className="stat-list__item">

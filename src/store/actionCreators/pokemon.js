@@ -44,7 +44,6 @@ export const fetchCategory = (url) => async dispatch => {
   const pokemons = data.pokemon.map(item => {
     return item.pokemon;
   });
-  console.log(pokemons);
 
   dispatch({
     type: FETCH_CATEGORY,
