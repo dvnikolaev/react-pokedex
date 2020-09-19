@@ -1,0 +1,26 @@
+.buttons__page {
+  display: flex;
+  margin-top: 10px;
+}
+.button__page {
+  padding: 10px 20px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+.button__page-prev {
+  background-color: #FF4B2B;
+}
+.button__page-prev:hover {
+  background-color: #ff5e41
+}
+.button__page-next {
+  background-color: #2948ff;
+  margin-left: auto;
+}
+.button__page-next:hover {
+  background-color: #3957ff;
+}

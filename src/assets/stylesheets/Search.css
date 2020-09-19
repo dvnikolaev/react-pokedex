@@ -1,0 +1,28 @@
+.search {
+  display: flex;
+}
+.search__input {
+  padding: 10px;
+  flex-basis: 90%;
+  font-size: 14px;
+  font-family: inherit;
+}
+.search__button {
+  font-weight: bold;
+  font-family: inherit;
+  color: white;
+  flex-basis: 10%;
+  margin-left: 10px;
+  background-color: #02a1d6;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all .1s ease;
+}
+.search__button:hover,
+.search__button:focus {
+  background-color: #0285b1;
+}
+.search__button:active {
+  background-color: #0cbffa;
+}
